@@ -12,7 +12,7 @@ The analysis is divided into three main Python scripts:
 1. extract_narclim_rx1day_nsw.py
    
 
-Extracts and processes NARCliM2.0 hourly precipitation data for NSW.
+**Extracts and processes NARCliM2.0 hourly precipitation data for NSW.**
 
 **Main tasks:**
 
@@ -23,11 +23,11 @@ Calculates annual RX1day — the maximum 1-day precipitation for each year.
 Processes historical and future climate simulations.
 Saves the processed RX1day results for further analysis.
 
-2. Fig1_2.py
+**2. Fig1_2.py**
 
 Generates Figure 1 and Figure 2 for the written assessment.
 
-Main tasks:
+**Main tasks:**
 
 Reads the extracted RX1day datasets.
 Calculates model/ensemble statistics.
@@ -35,26 +35,31 @@ Produces spatial maps of extreme rainfall.
 Compares historical and future periods/scenarios.
 Generates figures showing changes in RX1day across NSW.
 
-3. Table1.py
+**3. Table1.py**
 
 Generates Table 1 for the written assessment.
 
-Main tasks:
+**Main tasks:**
 
 Reads the processed RX1day data.
 Summarises the available climate models, scenarios and periods.
 Calculates relevant ensemble statistics.
 Produces a summary table for reporting.
 
-Data
+**Data**
 
 The analysis uses NARCliM2.0 hourly precipitation data, including multiple:
 
 Global Climate Models (GCMs)
+
 Regional Climate Models (RCMs)
+
 Historical simulations
+
 Future SSP scenarios
+
 Future climate periods
+
 Outputs
 
 The workflow produces:
