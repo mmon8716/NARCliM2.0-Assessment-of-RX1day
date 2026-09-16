@@ -60,16 +60,23 @@ The workflow produces:
 
 
 Processed RX1day NetCDF files
+
         ↓
+        
     Figure 1
+    
     Figure 2
+    
         ↓
+        
      Table 1
      
 
 The outputs can be used to assess spatial patterns, future changes, model agreement and uncertainty in extreme rainfall across NSW.
 
+
 Requirements
+
 
 Python 3.x with:
 
