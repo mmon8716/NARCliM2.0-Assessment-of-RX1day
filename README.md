@@ -65,10 +65,11 @@ Outputs
 **The workflow produces:**
 
 
+ 
 Processed RX1day NetCDF files
 
         ↓           
-   Figure 1
+     Figure 1
     
     Figure 2
     
